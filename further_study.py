@@ -14,8 +14,15 @@ def custom_len(input_list):
         >>> custom_len(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Ti', 'Do'])
         8
 
-
+        Run a for-loop with a counter
     """
+
+    counter = 0
+
+    for input in input_list:
+        counter += 1
+
+    return counter
 
 
 
