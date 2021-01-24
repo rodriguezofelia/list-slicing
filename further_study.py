@@ -11,12 +11,16 @@ def custom_len(input_list):
 
     For example:
 
-        >>> custom_len(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Ti', 'Do'])"""
+        >>> custom_len(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Ti', 'Do'])
+        8
+    """
     counter = 0
 
     for item in input_list:
         counter += 1
-        
+    
+    return counter
+
 # For the next four exercises, you'll need to be clever and think about ways
 # to use list slice assignment.
 #
